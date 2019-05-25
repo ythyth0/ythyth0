@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>자기소개</title>
+    <link rel="stylesheet" href="./stylesheets/자기소개.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Black+Han+Sans|Do+Hyeon|Nanum+Myeongjo|Nanum+Pen+Script"
+      rel="stylesheet"
+    />
+    <!-- 
+        css시트에 웹폰트를 첨부하는 방법은??
+    -->
+    <style>
+      nav {
+        background-color: white;
+        color: black;
+        padding: 1em;
+        text-align: right;
+      }
+      #blogtitle {
+        font-family: 'Black Han Sans', sans-serif;
+        font-size: 60px;
+        text-align: center;
+        border-bottom: black double 8px;
+        border-top: black double 8px;
+        margin-top: 1px;
+        margin-bottom: 20px;
+        padding: 30px;
+      }
+      div.contents {
+        position: relative;
+        width: 400px;
+        height: 430px;
+        font-size: 40px;
+        margin: 20px;
+        /*text-align: center;*/
+        padding: 1em;
+        border: gray solid;
+        display: inline-block;
+      }
+      .contents #big {
+        margin: 0;
+        font-family: 'Do Hyeon', sans-serif;
+        font-size: 40px;
+      }
+
+      .contents #clickbar {
+        font-family: 'Do Hyeon', sans-serif;
+        font-size: 30px;
+        margin: 1px;
+      }
+
+      .contents #joa {
+        font-family: '고딕', sans-serif;
+        font-size: 18px;
+        margin: 2px;
+      }
+      .contents img {
+        display: block;
+        margin: auto;
+      }
+      .endpoint {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-top: 8px;
+        border-top: black solid 2px;
+      }
+      .mainct {
+        border-top: black solid 7px;
+        padding: 10px;
+        font-family: 'Nanum Myeongjo', serif;
+        font-size: 30px;
+        line-height: 60px;
+      }
+      #intro-title {
+        font-family: 'Nanum Myeongjo', serif;
+        font-weight: bold;
+        font-size: 50px;
+      }
+      /*
+        contents라는 클래스 내부의 big id를 지정하는 상황인데
+        바로 위에 div.contents 랑 분명히 연관있는 스타일 지정이다.
+        이렇게 연관있는걸 묶어서 편하게 관리할수는 없을까?
+        */
+      a {
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>네브바 | 자기소개 | <a href="https://www.naver.com" name="naver">네이버</a></nav>
+
+    <p id="blogtitle">자기소개 테스트</p>
+    <div class="contents">
+      <img src="./고양이.png" alt="LeeDH" width="360" />
+    </div>
+    <div class="mainct">
+      <p id="intro-title">1. 자기소개</p>
+      <p>
+        안녕하세요 제 이름은 김태홍입니다. 취미 삼아 알고리즘문제를 풀던 것을 계기로 프로그래밍에 흥미를 붙이게
+        되었습니다. 문제를 푸는 것도 좋지만, 요즘은 이렇게 직접 눈에 보이는 결과물을 만들어내면서 색다른 즐거움에
+        빠져들고 있습니다.
+      </p>
+      <br />
+      <p id="intro-title">2. 서비스</p>
+      <p>
+        학교앞에서 머리를 잘랐다가 만족스럽지 않은 경험을 한 적이 있어서, 학교 주변 헤어샵 평점 서비스를 만들고
+        싶습니다. 비단 미용실뿐만 아니라 학교 학생들이 자주 이용하는 모든 시설에 확장할 수 있는 서비스라고 생각합니다.
+        이런류의 평점 서비스는 이미 시중에 굉장히 많이 나와있는데다, 대부분의 경우 이용자들은 정보만 얻어가고 본인들의
+        정보나 평점은 제공하지 않으려는 경향을 보이기때문에 이러한 부분에서 차별점을 고안하여 적용해야 의미있는 서비스
+        개발이 될 수 있으리라 생각합니다.
+      </p>
+      <br />
+    </div>
+
+    <div class="endpoint">taehong,Kim 2019</div>
+  </body>
+</html>

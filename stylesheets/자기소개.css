@@ -1,0 +1,43 @@
+/*body, html{
+    margin:0;
+}*/
+
+.header{
+    width: 500px;
+    text-align: right;
+    background-color: orange;
+    padding: 0px;
+    margin: 0px;
+}
+.main-contents{
+    background-color: darkgreen;
+    padding: 10em;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.footprint{
+    padding: 10em;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 1em;
+}
+
+.footer{
+    text-align: center;
+    background-color: red;
+    border-top:1px solid black;
+    padding: 2em;
+}
+.footer2{
+    text-align: center;
+    background-color: orange;
+    border-top:1px solid black;
+    padding: 2em;
+}
+
+.caption{
+    text-align: center;
+    font-family: "고딕";
+}
+
